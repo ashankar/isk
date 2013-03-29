@@ -159,9 +159,9 @@ if(name.equals("N/F")||email_id.equals("N/F")||subject.equals("N/F")||department
               Connection conn = null;
               DataSource ds = null;
               try {
-              ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
+              // ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
               }
-              catch(NamingException e)
+              catch(Exception e)
               { //out.print(e);
               }
               try

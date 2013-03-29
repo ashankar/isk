@@ -36,10 +36,10 @@
 		<servlet-name>NewQuery</servlet-name>
 		<servlet-class>NewQuery</servlet-class>
 	</servlet>
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>emp_reg</servlet-name>
 		<servlet-class>emp_reg</servlet-class>
-	</servlet>
+	</servlet> -->
 	<servlet>
 		<servlet-name>deptt_reg</servlet-name>
 		<servlet-class>deptt_reg</servlet-class>
@@ -48,18 +48,18 @@
 		<servlet-name>Reply_Query</servlet-name>
 		<servlet-class>Reply_Query</servlet-class>
 	</servlet>
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>Forgot_Password</servlet-name>
 		<servlet-class>Forgot_Password</servlet-class>
-	</servlet>
-	<servlet>
+	</servlet> -->
+	<!-- <servlet>
 		<servlet-name>expertdashboard</servlet-name>
 		<servlet-class>expertdashboard</servlet-class>
-	</servlet>
-	<servlet>
+	</servlet> -->
+	<!-- <servlet>
 		<servlet-name>Time</servlet-name>
 		<servlet-class>Time</servlet-class>
-	</servlet>
+	</servlet> -->
 	<servlet>
 		<servlet-name>adminquery</servlet-name>
 		<servlet-class>adminquery</servlet-class>
@@ -168,10 +168,10 @@
 		<servlet-name>NewQuery</servlet-name>
 		<url-pattern>/NewQuery</url-pattern>
 	</servlet-mapping>
-	<servlet-mapping>
+	<!-- <servlet-mapping>
 		<servlet-name>emp_reg</servlet-name>
 		<url-pattern>/emp_reg</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 	<servlet-mapping>
 		<servlet-name>deptt_reg</servlet-name>
 		<url-pattern>/deptt_reg</url-pattern>
@@ -180,18 +180,18 @@
 		<servlet-name>Reply_Query</servlet-name>
 		<url-pattern>/Reply_Query</url-pattern>
 	</servlet-mapping>
-	<servlet-mapping>
+	<!-- <servlet-mapping>
 		<servlet-name>Forgot_Password</servlet-name>
 		<url-pattern>/Forgot_Password</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
+	</servlet-mapping> -->
+	<!-- <servlet-mapping>
 		<servlet-name>expertdashboard</servlet-name>
 		<url-pattern>/expertdashboard</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
+	</servlet-mapping> -->
+	<!-- <servlet-mapping>
 		<servlet-name>Time</servlet-name>
 		<url-pattern>/Time</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 	<servlet-mapping>
 		<servlet-name>adminquery</servlet-name>
 		<url-pattern>/adminquery</url-pattern>

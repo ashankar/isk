@@ -26,9 +26,9 @@ public class DeptPendingQuery extends HttpServlet
               Connection conn = null;
               DataSource ds = null;
               try {
-              ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
+              // ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
               }
-              catch(NamingException e)
+              catch(Exception e)
               { }
               try
               {

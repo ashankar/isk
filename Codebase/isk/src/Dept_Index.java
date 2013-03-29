@@ -53,9 +53,9 @@ public class Dept_Index extends HttpServlet
               DataSource ds = null;
               try
               {
-              ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
+             // ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
               }
-              catch(NamingException e)
+              catch(Exception e)
               { }
               try
               {

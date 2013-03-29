@@ -31,9 +31,9 @@ public class TokenSearch extends HttpServlet
 
             DataSource ds = null;
               try {
-               ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
+               // ds = (DataSource)new InitialContext().lookup("jdbc/ipsDB");
               }
-              catch(NamingException e)
+              catch(Exception e)
               { }
             Connection conn=null;
           try
